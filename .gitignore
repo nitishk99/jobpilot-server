@@ -1,0 +1,33 @@
+# Dependencies and build output
+node_modules/
+dist/
+build/
+coverage/
+.nyc_output/
+
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+!.env.sample
+client_secret*.json
+service-account*.json
+
+# Logs and runtime files
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+*.pid
+*.pid.lock
+
+# TypeScript and test caches
+*.tsbuildinfo
+.vitest/
+.vitest-cache/
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
